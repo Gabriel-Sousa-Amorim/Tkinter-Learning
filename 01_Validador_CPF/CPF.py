@@ -88,6 +88,7 @@ Output_Label_str = tk.StringVar()
 Output_Label_str.set('Resultado')
 Output_Label = ttk.Label(
     #Onde o frame se localizará
+    
     master = window,
     #Conteúdo da Label
     text = 'Result is:',
